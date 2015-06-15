@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+.gameover
+{
+background-image:url(images/gameover.jpg);
+overflow-x:hidden;
+position:absolute;
+}
+
+body
+{
+background-image: url(images/graduation.jpg);
+width:100%;
+overflow-x:hidden;
+position: absolute;
+/*
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: center top;
+padding-left:25%;
+*/
+}
+
+.loginArea table
+{
+position:absolute;
+top:5;
+right:15;
+}
+
+.loginArea p
+{
+display:inline;
+position:absolute;
+top:10%;
+left:32%;
+font-size:175%;
+color:red;
+}
+
+.loginArea
+{
+display:inline;
+font-size:115%;
+color:red;
+}
+
+.logoutArea{
+position:absolute;
+top:10;
+right:15;
+}
+
+.top
+{
+text-align:center;
+clear:both;
+position:relative;
+top:120;
+left:10%;
+}
+
+.topHeader a
+{
+position:relative;
+width: 210px;
+height: 210px;
+font-size:250%;
+text-decoration:none;
+color:black;
+}
+
+.quizArea
+{
+padding-left:50;
+float:left;
+}
+
+.question
+{
+padding-left:70;
+clear:both;
+}
+
+#selectAnswer{
+color:orange;
+font-size:125%;
+}
+
+#correctAnswer{
+color:green;
+font-size:125%;
+}
+
+#wrongAnswer{
+color:red;
+}
+
+#click{
+position:absolute;
+left:40%;
+top:275;
+}
